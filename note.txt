@@ -1,0 +1,31 @@
+API Development
+--------------
+
+what  - Web Application (OS) 
+why   - Want to use Any Platform (response JSON / Data)
+
+=> model  / migration
+
+=> route (api.php) (Api\BrandController)
+
+=> controller (make:controller Api/BrandController --api) // 5 methods
+
+=> edit .env (config database)
+
+=> php artisan serve
+
+=> php artisan migrate
+
+=> create Factories and Seeders
+
+=> php artisan db:seed
+
+=> URL (localhost:8000/api/brands)
+
+=> Create Resource (filter column between model and response JSON)
+  - make:resource BrandResource (App/Http/Resources)
+  - array list (BrandResource::collection())
+  - object one (new BrandResource())
+  - data warpping 
+
+=> Category / Subcategory (json responses)
