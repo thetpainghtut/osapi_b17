@@ -18,12 +18,15 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+// localhost:8000/api/v1/
 
-Route::apiresource('categories','Api\CategoryController');
+Route::prefix('v1')->group(function () {
+  Route::apiresource('categories','Api\CategoryController');
 
-Route::apiresource('subcategories','Api\SubcategoryController');
+  Route::apiresource('subcategories','Api\SubcategoryController');
 
-Route::apiresource('brands','Api\BrandController');
+  Route::apiresource('brands','Api\BrandController');
 
-Route::apiresource('items','Api\ItemController');
+  Route::apiresource('items','Api\ItemController'); // 5
+});
 

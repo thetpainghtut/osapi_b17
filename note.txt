@@ -29,3 +29,37 @@ why   - Want to use Any Platform (response JSON / Data)
   - data warpping 
 
 => Category / Subcategory (json responses)
+
+
+API Authentication (passport)
+------------------
+  - install using composer
+  - php atisan migrate
+  - php artisan passport:install
+
+  - App\User.php (model)
+  - Provider\AuthServiceProvider -> boot()
+  - config\auth.php (token -> passport)
+
+  - oauth/token
+    - username (email)
+    - password (password)
+    - client_id ()
+    - client_secret ()
+    - grant_type (password)
+
+    - Bearer => access token / refresh token
+
+    - Header 
+      - Authorization
+      - Bearer accesstoken
+
+    
+
+
+
+
+
+
+
+

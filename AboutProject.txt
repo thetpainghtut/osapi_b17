@@ -1,0 +1,36 @@
+Project Plan
+------------
+
+  - 3 / 4 နီးစပ်ရာ
+  - တိုင်ပင် မန်တာ
+  - ခေါင်းစဥ်
+
+  - main functions (ecommerce website)
+    - item management
+    - user
+    - shopping 
+    - order management
+
+  - stand web application
+    - process
+    - user role
+
+
+Project Docs
+------------
+ - Members
+    - Mg Mg , Mya Mya, KYee, Su
+
+ - Title
+    - HR Payroll Management System
+
+ - Main functions
+    - Calculate Payment for each satff
+    - Mangement Department
+    - Staff Mangement
+
+ - Role
+    - Admin
+    - HR (add present/absent for each staff)
+    - Staff (payment history)
+
